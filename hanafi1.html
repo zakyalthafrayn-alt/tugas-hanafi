@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ujian Harian</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 25px 18px;
+            font-family: "Times New Roman", serif;
+            background-color: white;
+            color: black;
+        }
+
+        h1 {
+            margin: 0 0 45px 0;
+            font-size: 46px;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+            font-size: 28px;
+        }
+
+        th, td {
+            border: 2px solid #aaa;
+            padding: 4px;
+        }
+
+        th {
+            height: 48px;
+            text-align: left;
+            font-weight: normal;
+        }
+
+        td {
+            height: 225px;
+            vertical-align: middle;
+        }
+
+        th:nth-child(1),
+        td:nth-child(1) {
+            width: 7%;
+        }
+
+        th:nth-child(2),
+        td:nth-child(2) {
+            width: 49%;
+        }
+
+        th:nth-child(3),
+        td:nth-child(3) {
+            width: 44%;
+        }
+
+        .nomor {
+            padding-left: 10px;
+        }
+
+        .nama {
+            padding-left: 8px;
+        }
+
+        .gambar {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .gambar img {
+            max-width: 175px;
+            max-height: 210px;
+            object-fit: contain;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Ujian Harian</h1>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Gambar</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <!-- BARIS 1 -->
+            <tr>
+                <td class="nomor">1</td>
+
+                <td class="nama">
+                    Monyet
+                </td>
+
+                <td>
+                    <div class="gambar">
+                        <img src="monyet.jpg" alt="Monyet">
+                    </div>
+                </td>
+            </tr>
+
+
+            <!-- BARIS 2 -->
+            <tr>
+                <td class="nomor">2</td>
+
+                <td class="nama">
+                    Anggur
+                </td>
+
+                <td>
+                    <div class="gambar">
+                        <img src="anggur.jpg" alt="Anggur">
+                    </div>
+                </td>
+            </tr>
+
+
+            <!-- BARIS 3 -->
+            <tr>
+                <td class="nomor">3</td>
+
+                <td class="nama">
+                    Jagung
+                </td>
+
+                <td>
+                    <div class="gambar">
+                        <img src="jagung.jpg" alt="Jagung">
+                    </div>
+                </td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</body>
+</html>
